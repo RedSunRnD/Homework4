@@ -29,17 +29,14 @@ public class Main {
         System.out.println();
 
         //Задача №4
-        int ageB = 68;
+        int ageB = 12;
         if (ageB > 0 && ageB >= 2 && ageB <= 6) {
             System.out.println("Если возраст человека равен " + ageB + ", то ему нужно ходить в детский сад.");
-        }
-        if (ageB >= 7 && ageB <= 17) {
+        } else if (ageB >= 7 && ageB <= 17) {
             System.out.println("Если возраст человека равен " + ageB + ", то ему нужно ходить в школу.");
-        }
-        if (ageB >= 18 && ageB <= 24) {
+        } else if (ageB >= 18 && ageB <= 24) {
             System.out.println("Если возраст человека равен " + ageB + ", то его место в университете.");
-        }
-        if (ageB > 24) {
+        } else if (ageB > 2 ) {
             System.out.println("Если возраст человека равен " + ageB + ", то ему пора на работу.");
         }
         System.out.println();
@@ -73,26 +70,17 @@ public class Main {
         System.out.println();
 
         //Задача №7
-        int one = 6;
-        int two = 8;
-        int three = 6;
-        if (one > two && one > three) {
-            System.out.println(one + " самое большое число.");
+        int firstNumber = 6;
+        int secondNumber = 8;
+        int thirdNumber = 6;
+        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+            System.out.println(firstNumber + " самое большое число.");
         } else {
-            if (two > one && two > three) {
-                System.out.println(two + " самое большое число.");
+            if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+                System.out.println(secondNumber + " самое большое число.");
             } else {
-                System.out.println( three + " самое большое число.");
+                System.out.println( thirdNumber + " самое большое число.");
             }
         }
-
-
-
-
-
-
-
     }
-
-
 }
